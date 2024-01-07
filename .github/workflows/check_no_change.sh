@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git remote add teacher-upstream https://github.com/bopan-uw/css432-tftp.git
+git remote add teacher-upstream https://github.com/bopan-uw/assignment-echoserver.git
 git fetch teacher-upstream main:teacher-main
 
 CHANGES=$(git diff teacher-main -- .github/ main -- .github/)
