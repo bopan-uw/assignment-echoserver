@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt-get update
 sudo apt install valgrind
 
 valgrind --leak-check=full \
